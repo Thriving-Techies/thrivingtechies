@@ -1,0 +1,293 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+@media only screen and (min-width: 1000px) and (max-height: 600px){
+    header{
+        height: 100vh;
+    }
+    .left-area{
+        height: 80vh;
+    }
+    .right-area{
+        float: right;
+        height: 80vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .right-area img{
+        margin-top: 10%;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1240px){
+    .container{
+        width: 980px;
+        margin: 0 auto;
+    }
+    .spadding{
+        padding: 50px 0;
+    }
+    .cards{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .card{
+        margin: 20px;
+    }
+    .card1{
+        margin-left: 0;
+    }
+    .card2{
+        margin-right: 0;
+    }
+    .card3{
+        margin-left: 0;
+    }
+    .card4{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .container{
+        width: 750px;
+    }
+    header{
+        height: auto;
+    }
+    #mainNav li{
+        padding: 20px 10px;
+    }
+    .header-bottom-area{
+        padding-bottom: 100px;
+    }
+    .left-area{
+        float: none;
+        width: 100%;
+        height: auto;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 100px auto;
+    }
+    .left-area .text{
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+    .left-area .text a{
+        padding: 15px 40px;
+    }
+    .right-area{
+        float: none;
+        width: 100%;
+        height: auto;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .section-top h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    .section-top h2:before{
+        width: 120px;
+        height: 4px;
+        top: 45px;
+    }
+    .section-top h2:after{
+        width: 90px;
+        height: 4px;
+        top: 57px;
+    }
+    .section-top p{
+        font-size: 15px;
+    }
+    .about-bottom .about-card{
+        width: 100%;
+    }
+    .cards{
+        width: 600px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width: 90%;
+    }
+    #mainNav{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .header-bottom-area{
+        padding-bottom: 50px;
+    }
+    .left-area{
+        margin-bottom: 60px;
+    }
+    .left-area .text h1{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .section-top{
+        margin-bottom: 30px;
+    }
+    .section-top h2{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .section-top p{
+        font-size: 15px;
+    }
+    .about-bottom .about-card{
+        padding: 25px;
+    }
+    .cards{
+        width: 280px;
+    }
+    .card{
+        margin: 20px 0;
+    }
+    .card .content{
+        -webkit-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+        -webkit-box-shadow: -2px 2px 7px 0px rgba(0,0,0,0.4);
+        box-shadow: -2px 2px 7px 0px rgba(0,0,0,0.4);
+    }
+}
+@media only screen and (max-width: 480px){
+	.preloader{
+		display: none;
+	}
+    .left-area .text h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .left-area .text h2{
+        font-size: 28px;
+    }
+    .left-area .text a{
+        font-size: 18px;
+    }
+    .about-bottom .about-card .content p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .about-bottom .about-card .content p::first-letter{
+        font-size: 30px;
+    }
+    .about-bottom .about-card .social{
+        margin-top: 10px;
+    }
+    .about-bottom .about-card .social a{
+        font-size: 25px;
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 325px){
+    nav .logo{
+        width: 140px;
+        padding-top: 5px;
+    }
+    #openNav .open-btn{
+        width: 45px;
+        height: 5px;
+    }
+    #openNav{
+        width: 60px;
+    }
+    #openNav .open-btn::before,
+    #openNav .open-btn::after{
+        width: 45px;
+        height: 5px;
+    }
+    #openNav .open-btn::before{
+        -webkit-transform: translateY(-14px);
+            -ms-transform: translateY(-14px);
+                transform: translateY(-14px);
+    }
+    #openNav .open-btn::after{
+        -webkit-transform: translateY(14px);
+            -ms-transform: translateY(14px);
+                transform: translateY(14px);
+    }
+    #mobileNav li a{
+        font-size: 18px;
+    }
+    .left-area .text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .left-area .text h2{
+        font-size: 23px;
+    }
+    .left-area .text a{
+        font-size: 16px;
+    }
+    .section-top{
+        margin-bottom: 10px;
+    }
+    .section-top h2{
+        font-size: 23px;
+    }
+    .section-top h2:before{
+        width: 110px;
+        top: 35px;
+    }
+    .section-top h2:after{
+        width: 80px;
+        top: 47px;
+    }
+	.about-bottom .about-card{
+		z-index: initial;
+	}
+	.about-bottom .about-card::before{
+		display: none;
+	}
+    .about-bottom .about-card .content p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about-bottom .about-card .social a{
+        font-size: 20px;
+        padding-right: 7px;
+    }
+    .cards{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+    .card .content .back .card-bottom .card-bottom-content h3{
+        font-size: 18px;
+    }
+    .card .content .back .card-bottom .card-bottom-content h4{
+        font-size: 14px;
+    }
+    .card .content .back .card-bottom .card-bottom-button a{
+        font-size: 14px;
+        width: 160px;
+    }
+}
+@media only screen and (max-width: 235px){
+    nav .logo{
+        width: 120px;
+        padding-top: 5px;
+    }
+    #openNav{
+        width: 50px;
+    }
+    #openNav .open-btn{
+        height: 4px;
+    }
+    #openNav .open-btn::before,
+    #openNav .open-btn::after{
+        height: 4px;
+    }
+}
